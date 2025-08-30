@@ -94,7 +94,6 @@
         
         .results-section {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
         }
@@ -214,4 +213,13 @@
             .calendar-buttons {
                 flex-direction: column;
             }
+        }
+        .linkk {
+            font-weight: 60;
+            color: var(--dark);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
         }
